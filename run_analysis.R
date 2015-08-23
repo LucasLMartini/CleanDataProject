@@ -75,3 +75,5 @@ for(l in splitData) {
         }
     }
 }
+
+write.table(data.avgs, file="dataAvgs.txt",row.names = F)
